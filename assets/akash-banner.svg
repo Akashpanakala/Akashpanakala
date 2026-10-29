@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<title id="title">Akash Panakala — Cloud, court, curiosity</title>
+<desc id="desc">A midnight blue sky with cloud contours and a basketball orbit. Cloud engineering, sports analytics, business intelligence.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071323"/><stop offset="1" stop-color="#183d58"/></linearGradient>
+<linearGradient id="cloud" x2="1" y2="0"><stop stop-color="#72d9ec"/><stop offset="1" stop-color="#d8f6ff"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#53c8e2" stop-opacity=".2"/><stop offset="1" stop-color="#53c8e2" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+<circle cx="1040" cy="180" r="240" fill="url(#glow)"/>
+<g fill="none" stroke="#8be3f1" opacity=".13">
+<path d="M0 340 Q160 260 320 340 T640 340 T960 340 T1280 340"/>
+<path d="M0 365 Q160 285 320 365 T640 365 T960 365 T1280 365"/>
+<path d="M0 390 Q160 310 320 390 T640 390 T960 390 T1280 390"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="72" y="83" font-size="14" letter-spacing="5" fill="#85dce9">CLOUD / COURT / CURIOSITY</text>
+<text x="68" y="167" font-size="66" font-weight="700" letter-spacing="-2" fill="#f4f8fc">Akash Panakala</text>
+<text x="72" y="219" font-size="23" fill="#c5d8e6">Building reliable systems. Studying performance.</text>
+<rect x="72" y="257" width="44" height="3" rx="1.5" fill="#edb678"/>
+<text x="72" y="303" font-size="16" fill="#9ebacc">Cloud Engineering · Sports Analytics · Business Intelligence</text>
+</g>
+<g fill="none" stroke="url(#cloud)" stroke-width="2">
+<path d="M924 210h190a37 37 0 0 0 0-74 59 59 0 0 0-112-22 44 44 0 0 0-78 38 29 29 0 0 0 0 58Z" opacity=".8"/>
+<ellipse cx="1040" cy="215" rx="147" ry="89" transform="rotate(-27 1040 215)" stroke-dasharray="4 10" opacity=".4"/>
+<path d="M950 250l45 30 47-30 48 20 53-45" opacity=".45"/>
+</g>
+<g fill="#8be3f1"><circle cx="950" cy="250" r="4"/><circle cx="995" cy="280" r="4"/><circle cx="1042" cy="250" r="4"/><circle cx="1090" cy="270" r="4"/></g>
+<g transform="translate(1144 225)" fill="none" stroke="#edb678" stroke-width="2">
+<circle r="29" fill="#16354a"/><path d="M-29 0h58M0-29v58M-21-20Q10 0-21 20M21-20Q-10 0 21 20"/>
+</g>
+</svg>
