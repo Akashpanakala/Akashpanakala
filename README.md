@@ -1,58 +1,182 @@
 ![Akash Panakala — Cloud, court, curiosity](assets/akash-banner.svg)
 
 <p align="center">
-  <a href="#the-engineer">THE ENGINEER</a> &nbsp; / &nbsp;
-  <a href="#the-researcher">THE RESEARCHER</a> &nbsp; / &nbsp;
-  <a href="#the-athlete">THE ATHLETE</a>
+  <strong>Cloud & DevOps Engineer · Basketball Analytics · Doctoral Student</strong>
+</p>
+
+<p align="center">
+  <a href="#engineering">Engineering</a> &nbsp; / &nbsp;
+  <a href="#research">Research</a> &nbsp; / &nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
+  <a href="#education">Education</a> &nbsp; / &nbsp;
+  <a href="#beyond-the-terminal">Beyond the terminal</a>
 </p>
 
 ---
 
-I’m **Akash**, a cloud and DevOps engineer exploring how data can explain performance—both in the systems we build and on the basketball court.
+## One person. Three connected perspectives.
 
-My work connects infrastructure, automation, and analytics. My doctoral studies in business intelligence add another question: **How does a technical result become a better decision?**
+I’m **Akash Panakala**. I build cloud infrastructure and delivery pipelines, study business intelligence, and explore basketball through data.
 
-### The engineer
+Engineering taught me to investigate failures. Basketball taught me to look beyond the scoreboard. Research gives me a way to test both instincts.
 
-I work with cloud infrastructure, delivery pipelines, and containerized applications. My experience spans AWS and Azure, infrastructure as code, CI/CD, and observability.
+**The question connecting my work: what can we measure, trust, and improve?**
 
-| Focus | Tools I work with |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Build
+**Cloud engineering**
+
+Infrastructure, automation, and delivery systems that make applications easier to operate.
+
+</td>
+<td width="33%" valign="top">
+
+### Investigate
+**Sports analytics**
+
+Player-performance modeling with explicit baselines, chronological evaluation, and error analysis.
+
+</td>
+<td width="33%" valign="top">
+
+### Decide
+**Business intelligence**
+
+Turning technical findings into information people can use to make better decisions.
+
+</td>
+</tr>
+</table>
+
+## Engineering
+
+My experience includes cloud infrastructure, CI/CD, containerized applications, and monitoring across AWS and Azure environments.
+
+| Engineering problem | My experience |
 | :--- | :--- |
-| Cloud & infrastructure | AWS · Azure · Terraform · CloudFormation |
-| Delivery & automation | Jenkins · GitHub Actions · Azure DevOps · Ansible |
-| Containers & orchestration | Docker · Kubernetes · OpenShift |
-| Code & scripting | Python · Bash · PowerShell |
-| Observability | Prometheus · Grafana · ELK · Splunk |
+| Make deployments repeatable | Building delivery pipelines with Jenkins, GitHub Actions, and Azure DevOps |
+| Keep infrastructure consistent | Defining and managing resources with Terraform and CloudFormation |
+| Operate containerized applications | Working with Docker, Kubernetes, and OpenShift |
+| Understand production behavior | Using metrics and logs through Prometheus, Grafana, ELK, and Splunk |
+| Bring checks into delivery | Integrating code-quality and vulnerability-scanning tools into pipelines |
 
-I’m interested in systems that are understandable to the next engineer: repeatable deployments, useful monitoring, and a clear path from failure to recovery.
+<details>
+<summary><strong>A closer look at my engineering background</strong></summary>
 
-### The researcher
+<br>
 
-**Current direction: basketball performance analytics.**
+**Application delivery:** Experience supporting React/Next.js and Nest.js application delivery, with container workflows and CI/CD automation.
 
-I’m developing an NBA player-performance project that examines how recent game history can inform scoring predictions.
+**AWS systems:** Work involving EC2, S3, ECS, IAM, VPC networking, and messaging services, alongside infrastructure as code.
 
-The questions driving the work:
+**Operations:** Linux administration, reverse proxies, deployment troubleshooting, and observability.
 
-- **Does complexity earn its place?** Compare predictive models against a simple recent-scoring baseline.
-- **Does the result hold up over time?** Evaluate chronologically to reflect prediction on future games.
-- **Who does the model miss?** Examine errors across players and scoring groups, beyond a single average.
-- **What can someone do with the result?** Connect statistical performance to an interpretable decision.
+**Automation:** Python, Bash, and PowerShell for repeatable operational tasks.
 
-My approach is to make the baseline clear, question the features, and report limitations alongside improvements.
+I value a deployment process the next engineer can understand, monitoring that helps explain failures, and infrastructure changes that can be reviewed.
 
-### The athlete
+</details>
 
-Basketball is part of my background, not just a dataset. I’ve competed at the **U-19 national level in India** and earned **state-level basketball medals**.
+## Research
 
-Playing makes me curious about what a box score captures—and what it leaves out. That perspective shapes the questions I want to investigate through data.
+### NBA player-performance analytics
+**Ongoing project · Predictive modeling · Basketball**
+
+A recent scoring average is an intuitive forecast. My research asks whether additional context and more complex models improve on that baseline—and where they still fail.
+
+| Question | Approach |
+| :--- | :--- |
+| What does a simple forecast already explain? | Establish a last-five-games scoring baseline |
+| Do additional features improve predictions? | Explore recent performance, playing time, and rest |
+| Does model complexity help? | Compare linear regression with tree-based models |
+| Would the evaluation reflect future prediction? | Use chronological splits and time-based cross-validation |
+| Which players are harder to predict? | Examine errors by player and scoring group |
+
+**What I want the work to demonstrate:** a clear chain from the question and data preparation to evaluation, interpretation, and limitations.
+
+<details>
+<summary><strong>Research principles & next milestones</strong></summary>
+
+<br>
+
+- **Respect time.** Features should use information available before the game being predicted.
+- **Earn complexity.** Compare every model with an understandable baseline.
+- **Inspect the misses.** A good average error can hide uneven performance across players.
+- **Separate prediction from explanation.** A predictive relationship does not establish causation.
+- **Make results reproducible.** Document data sources, transformations, splits, and evaluation choices.
+
+Next milestones include deeper per-player error analysis, organizing a reproducible project release, and developing the research write-up.
+
+</details>
+
+## Toolkit
+
+<details open>
+<summary><strong>Cloud, infrastructure & delivery</strong></summary>
+
+<br>
+
+| Area | Technologies |
+| :--- | :--- |
+| Cloud platforms | AWS · Azure |
+| Infrastructure as code | Terraform · CloudFormation |
+| Configuration | Ansible |
+| CI/CD | Jenkins · GitHub Actions · GitLab CI · Azure DevOps |
+| Containers | Docker · Kubernetes · OpenShift |
+| GitOps | Argo CD · Flux |
+
+</details>
+
+<details>
+<summary><strong>Programming, observability & security tooling</strong></summary>
+
+<br>
+
+| Area | Technologies |
+| :--- | :--- |
+| Programming & scripting | Python · Bash · PowerShell · Groovy |
+| Monitoring & logging | Prometheus · Grafana · ELK · Splunk · Datadog |
+| Quality & security checks | SonarQube · Trivy · OWASP tools · Snyk |
+| Data & messaging | MongoDB Atlas · Redis · Kafka |
+| Systems | Linux · Nginx |
+
+</details>
+
+## Education
+
+| Study | Institution / focus |
+| :--- | :--- |
+| Doctoral studies — in progress | Belhaven University · Business Intelligence |
+| Master’s in Computer Science | Wichita State University |
+| Bachelor’s in Information Technology | India |
+
+My academic direction connects quantitative analysis, technology, and business decision-making.
+
+## Beyond the terminal
+
+**I played the game before I started modeling it.**
+
+Basketball is the starting point of my interest in sports analytics. Competing made me curious about performance, consistency, and the context behind a result.
+
+| Background | Highlights |
+| :--- | :--- |
+| Basketball | U-19 nationals participation · U-19 state silver · Senior state gold and bronze |
+| Softball | Three gold medals |
+| Other experience | Volleyball · NCC cadet |
+
+The athlete in me asks what happened on the court. The researcher asks what the evidence supports. The engineer asks how to build something useful from it.
 
 ---
 
-### What I’m building toward
+### Let’s connect through the work
 
-A body of work connecting **reliable cloud systems**, **reproducible sports analytics**, and **business intelligence**.
+I’m interested in **cloud and DevOps engineering**, **basketball analytics**, and **research collaborations** that connect data with practical decisions.
 
-I’m interested in conversations and collaborations around cloud engineering, DevOps, and basketball analytics.
+[Explore my repositories](https://github.com/Akashpanakala?tab=repositories)
 
-<p align="center"><sub>Build with discipline. Measure with curiosity.</sub></p>
+<p align="center">
+  <sub>Build with discipline. Measure with curiosity.</sub>
+</p>
